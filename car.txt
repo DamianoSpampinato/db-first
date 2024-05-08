@@ -1,0 +1,20 @@
+Cars 
+
+id - INT - PRIMARY_KEY -(NOTNULL -  UNIQUE) - AUTO_INCREMENT 
+brand - VARCHAR(255) - NOTNULL - INDEX
+model - VARCHAR(50) -NOTNULL - INDEX
+year - YEAR - NOTNULL - INDEX
+nationality - VARCHAR(50) - NOTNULL - 
+fuel_type - VARCHAR(50) - NOTNULL
+description - TEXT - NULL
+image_car_url  - VARCHAR(255) - NOTNULL
+color - VARCHAR(50) - NOTNULL
+transmission- VARCHAR(20) - NOTNULL
+first_registration - DATE - NOTNULL
+km - MEDIUMINT - NOTNULL
+price - DECIMAL(7, 2) - NOTNULL
+last_maintenance - DATE - NOTNULL 
+number_of_key - TINYINT - NULL
+type_of_traction -VARCHAR(50) - NOTNULL
+previous_owners - TINYINT - NOTNULL
+license _plate- VARCHAR(50) - NOTNULL
